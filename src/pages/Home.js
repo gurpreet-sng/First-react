@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/NavBar'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import {Link} from 'react-router-dom'
 
 function Home(){
     return(
@@ -16,21 +17,21 @@ function Home(){
                         <div className="equipment-box">
                         <div className="equipment-image"><img src="images/equipment1.jpg"/></div>
                         <h3>John Deere 35 G Excavator 8200 lb with thumb on bucket very low hours.</h3>
-                        <a className="btn btn-style" href="#" role="button">Book Excavator</a>
+                            <Link className="btn btn-style" to="/Contract">Book Excavator</Link>
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="equipment-box">
                         <div className="equipment-image"><img src="images/equipment2.jpg"/></div>
                         <h3>Kubota Tractor Model L2501 Includes Grapple, Bucket, Box Blade etc.</h3>
-                        <a className="btn btn-style" href="#" role="button">Book Tractor</a>
+                            <Link className="btn btn-style" to="/Contract">Book Tractor</Link>
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="equipment-box">
                         <div className="equipment-image"><img src="images/equipment3.jpg"/></div>
                         <h3>Triple Crown Dump Trailer With 4 Ft High Walls | 15 Yard (7’ X 14’)</h3>
-                        <a className="btn btn-style" href="#" role="button">Book Dump Trailer</a>
+                            <Link className="btn btn-style" to="/Contract">Book Dump Trailer</Link>
                         </div>
                     </div>
                     </div>
@@ -76,7 +77,7 @@ function Home(){
                     <p> With our low overhead we can rent and deliver the equipment at very competitive rates.</p>
                     <p>We deliver all equipment : free within 25 miles if equipment is rented for at least 3 days.</p>
                     <h6>Call today for a free quote:   352-266-7758 ask for Jamie</h6>
-                    <a className="btn btn-style" href="#" role="button">Book Excavator</a>
+                        <Link className="btn btn-style" to="/Contract">Book Excavator</Link>
                     </div>
                 </div>
                 </div>

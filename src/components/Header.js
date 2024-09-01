@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function Header(){
     return(
@@ -11,8 +12,9 @@ function Header(){
                         <p>Southpaw Equipment rental is great for small homeowners and handymen<br/> to tackle small to medium residential projects. </p>
                         <div className="graphic"><img src="images/graphic.png"/></div>
                         <div className="button-group">
-                        <a className="btn btn-style" href="#" role="button">Book Now</a>
-                        <a className="btn btn-style" href="#" role="button">Our Equipment</a>
+                            <Link className="btn btn-style" to="/Contract">Book Now</Link>
+                            
+                            <Link className="btn btn-style" to="/About">Our Equipment</Link>
                         </div>
                     </div>
                     </div>
